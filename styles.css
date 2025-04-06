@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ab9393;
-    color: #333;
+    color: #ab9393;
 }
 
 header {
@@ -27,7 +27,7 @@ ul {
 }
 
 ul li {
-    background-color: #fff;
+    background-color: #ab9393;
     margin: 0.5em 0;
     padding: 0.5em;
     border-radius: 5px;
@@ -37,7 +37,7 @@ ul li {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #4CAF50;
+    background-color: #ab9393;
     color: white;
     position: fixed;
     width: 100%;
