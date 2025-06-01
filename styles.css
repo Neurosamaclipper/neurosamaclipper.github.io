@@ -2,13 +2,13 @@ body {
     font-family: Helvetica;
     margin: 0;
     padding: 0;
-    background-color: #ab9393;
-    color: #ab9393;
+    background-color: #F0FFFF;
+    color: #F0FFFF;
 }
 
 header {
-    background-color: #ab9393;
-    color: Dusty Grey;
+    background-color: #F0FFFF;
+    color: Azure;
     padding: 1em 0;
     text-align: center;
 }
@@ -27,7 +27,7 @@ ul {
 }
 
 ul li {
-    background-color: #ab9393;
+    background-color: #DC143C;
     margin: 0.5em 0;
     padding: 0.5em;
     border-radius: 5px;
@@ -37,7 +37,7 @@ ul li {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #ab9393;
+    background-color: #F0FFFF;
     color: white;
     position: fixed;
     width: 100%;
