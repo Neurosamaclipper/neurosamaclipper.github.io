@@ -2,13 +2,13 @@ body {
     font-family: Helvetica;
     margin: 0;
     padding: 0;
-    background-color: #F0FFFF;
-    color: #F0FFFF;
+    background-color: #FBE8A6; /* Neuro-sama Tan */
+    color: #212121; /* Dark text for contrast */
 }
 
 header {
-    background-color: #F0FFFF;
-    color: Azure;
+    background-color: #6EC1E4; /* Neuro-sama Blue */
+    color: #FBE8A6; /* Tan text */
     padding: 1em 0;
     text-align: center;
 }
@@ -27,18 +27,19 @@ ul {
 }
 
 ul li {
-    background-color: #DC143C;
+    background-color: #6EC1E4; /* Neuro-sama Blue */
+    color: #212121; /* Dark text for readability */
     margin: 0.5em 0;
     padding: 0.5em;
     border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(33,33,33, 0.07);
 }
 
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #F0FFFF;
-    color: white;
+    background-color: #6EC1E4; /* Neuro-sama Blue */
+    color: #FBE8A6; /* Tan text */
     position: fixed;
     width: 100%;
     bottom: 0;
