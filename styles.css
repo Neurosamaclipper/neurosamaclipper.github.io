@@ -1,43 +1,43 @@
 
 :root {
-    --primary-dark: #6C3D5A; /* Dark reddish-purple from the left panel */
-    --primary-light: #FFC0CB; /* Light pink from the right panel */
-    --accent-yellow: #FFFACD; /* Light yellow from the heart/gear icons */
-    --accent-blue: #ADD8E6;  /* Light blue from the heart/gear icons */
-    --accent-purple: #DDA0DD; /* Light purple from the heart/gear icons */
-    --accent-green: #90EE90; /* Light green (implied, or for subtle variations) */
-    --text-dark: #333333; /* A general dark text color for contrast */
-    --text-light: #FFFFFF; /* White text for dark backgrounds */
-    --border-color: rgba(0, 0, 0, 0.1); /* Subtle border color */
+    --primary-dark: #6C3D5A; 
+    --primary-light: #FFC0CB;
+    --accent-yellow: #FFFACD; 
+    --accent-blue: #ADD8E6;  
+    --accent-purple: #DDA0DD; 
+    --accent-green: #90EE90; 
+    --text-dark: #333333; 
+    --text-light: #FFFFFF; 
+    --border-color: rgba(0, 0, 0, 0.1); 
 }
 
-/* --- General Body Styling --- */
+
 body {
-    font-family: 'Inter', sans-serif; /* A modern, clean font, or consider a rounded one like 'Quicksand' or 'Comfortaa' if available via Google Fonts */
+    font-family: 'Inter', sans-serif; 
     margin: 0;
     padding: 0;
     line-height: 1.6;
     color: var(--text-dark);
-    background-color: var(--primary-light); /* Default background to the light pink */
+    background-color: var(--primary-light); 
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure body takes full viewport height */
+    min-height: 100vh; 
     align-items: center;
     justify-content: center;
 }
 
-/* --- Container for content --- */
+
 .container {
     max-width: 960px;
     margin: 20px auto;
     padding: 20px;
-    background-color: var(--text-light); /* White background for content areas */
-    border-radius: 15px; /* Soft rounded corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: var(--text-light); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
     text-align: center;
 }
 
-/* --- Header Styling --- */
+
 header {
     background-color: var(--primary-dark);
     color: var(--text-light);
@@ -53,17 +53,17 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
     letter-spacing: 2px;
-    color: var(--accent-yellow); /* Using an accent color for the main title */
+    color: var(--accent-yellow); 
 }
 
-/* --- Navigation Styling --- */
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 20px; /* Space between nav items */
+    gap: 20px; 
 }
 
 nav ul li a {
@@ -76,24 +76,23 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white on hover */
-    transform: translateY(-2px); /* Slight lift effect */
+    background-color: rgba(255, 255, 255, 0.2); 
+    transform: translateY(-2px); 
 }
 
-/* --- Section Headings --- */
+
 h2, h3, h4 {
     color: var(--primary-dark);
     margin-top: 1.5em;
     margin-bottom: 0.5em;
 }
 
-/* --- Paragraphs --- */
+
 p {
     margin-bottom: 1em;
     color: var(--text-dark);
 }
 
-/* --- Buttons --- */
 .button {
     display: inline-block;
     background-color: var(--accent-blue);
@@ -110,7 +109,7 @@ p {
 }
 
 .button:hover {
-    background-color: var(--accent-purple); /* Change color on hover */
+    background-color: var(--accent-purple); 
     transform: translateY(-2px);
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
 }
@@ -124,25 +123,15 @@ p {
     background-color: var(--accent-green);
 }
 
-/* --- Image and Logo Styling (Placeholder) --- */
-/*
- * If you have actual logo images or SVG, you'd style them here.
- * For example:
- * .logo {
- * max-width: 150px;
- * height: auto;
- * margin: 10px 0;
- * }
- */
 
-/* --- Footer Styling --- */
+
 footer {
     background-color: var(--primary-dark);
     color: var(--text-light);
     text-align: center;
     padding: 15px 0;
     width: 100%;
-    margin-top: auto; /* Pushes footer to the bottom */
+    margin-top: auto; 
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
@@ -153,7 +142,7 @@ footer p {
     font-size: 0.9em;
 }
 
-/* --- Responsive Design Considerations --- */
+
 @media (max-width: 768px) {
     .container {
         margin: 15px;
